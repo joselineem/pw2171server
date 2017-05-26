@@ -7,8 +7,11 @@
     "electron": "^1.6.10",
     "electron-require": "^0.3.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "electron-require": "^0.3.0"
+  },
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

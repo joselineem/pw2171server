@@ -1,0 +1,6 @@
+sudo npm install -g https://github.com/electron-userland/electron-packager
+npm install electron-require --save-dev
+npm install --save electron-require
+npm install electron --save-dev
+npm install electron-require --save
+npm init

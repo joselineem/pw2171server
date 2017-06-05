@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Examen</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<main>
+	
+		<article id="arriba" class="panel panel-heading" >
+			<input type="text" size=50 id="txtCiudad" class="form-control" placeholder="
+	Ciudad">
+			<button class="btn btn-success btn-lg btn-block" id="btnBuscar">Buscar</button>
+		</article>
+	
+
+		<article id="datosClima" class="panel-body">
+			<article id="Coord"></article>
+				<div id="txtLon"></div>
+				<div id="txtLat"></div>
+			<article id="txtClima"></article>
+			<article id="txtDescripcion"></article>
+			<article id="principal">
+				<img src="" id="imgFoto" alt="">
+				<div id="txtTemperatura"></div>
+				<div id="txtPresion"></div>
+				<div id="txtHumedad"></div>
+				<div id="txtMin"></div>
+				<div id="txtMax"></div>
+			</article>
+			<article id="txtVisibilidad"></article>
+			<article id="txtViento"></article>	
+		</article>
+
+	</main>
+	<script>
+		require('./index.js')
+	</script>
+</body>
+</html>

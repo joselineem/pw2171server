@@ -1,0 +1,27 @@
+body{
+	font-size: 16px;
+	margin: 0 auto;
+	max-width: 1024px;
+}
+header nav{
+	display:none;
+	text-align: center;
+}
+header nav ul li{
+	display:  inline-block;;
+}
+header nav ul li button{
+	width: 89px;
+}
+#arriba{
+	background: blue;
+	color: white;
+	height: 50px;
+	padding: 5px;
+	padding-top: 20px;
+	text-align: center;
+}
+#datosClima{
+	margin:0 auto;
+	width: 350px;
+}
